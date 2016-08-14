@@ -1,0 +1,20 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP +BATT_NOSW
+K POWER, PWR
+$ENDCMP
+#
+$CMP +VUSB_IN
+K POWER, PWR
+$ENDCMP
+#
+$CMP +VUSB_OUT
+K POWER, PWR
+$ENDCMP
+#
+$CMP Si2323DS
+D Transistor P-MOSFET (general)
+K pmos p-mos p-mosfet transistor
+$ENDCMP
+#
+#End Doc Library

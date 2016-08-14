@@ -1,0 +1,24 @@
+###
+# For use with the adafruit 5' tft only.
+##
+
+#Overscan Information.
+overscan_left=-32
+overscan_right=-32
+overscan_top=-32
+overscan_bottom=-32
+framebuffer_width=800
+framebuffer_height=480
+
+# Disable spi and i2c, we need these pins.
+dtparam=spi=off
+dtparam=i2c_arm=off
+
+#Enable the lcd, enable custom display sizes with CVT, set as the default output.
+enable_dpi_lcd=1
+dpi_group=2
+dpi_mode=87 # Hdmi CVT
+display_default_lcd=1
+
+dpi_output_format=458773
+hdmi_timings=800 1 0 48 0 480 0 13 3 32 0 0 0 60 0 23040000 6
