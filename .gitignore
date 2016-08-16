@@ -1,0 +1,6 @@
+_saved*
+*.kicad_pcb-bak
+*.bak
+*.gbr
+.rpt
+pibook-cache.lib
