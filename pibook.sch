@@ -2165,8 +2165,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 10200 6900 10200
 Wire Wire Line
-	6600 10300 6900 10300
-Wire Wire Line
 	6600 10400 6900 10400
 Wire Wire Line
 	6600 10500 6900 10500
@@ -2767,22 +2765,121 @@ Wire Wire Line
 	3400 2200 3400 2300
 Wire Wire Line
 	2850 2300 3150 2300
-NoConn ~ 6900 10500
-NoConn ~ 6900 10400
-NoConn ~ 6900 10300
-NoConn ~ 6900 10200
-NoConn ~ 6900 10100
-NoConn ~ 6900 10000
-NoConn ~ 6900 9900
-NoConn ~ 6900 9800
-NoConn ~ 6900 9350
-NoConn ~ 6900 9250
-NoConn ~ 6900 9150
-NoConn ~ 6900 9050
-NoConn ~ 6900 8950
-NoConn ~ 6900 8800
-NoConn ~ 6900 8700
-NoConn ~ 6900 8100
-NoConn ~ 6900 7950
-NoConn ~ 6900 7850
+Wire Wire Line
+	6600 10300 6900 10300
+Text Label 6900 9800 0    60   ~ 0
+KEY_C0
+Text Label 6900 9900 0    60   ~ 0
+KEY_C1
+Text Label 6900 10000 0    60   ~ 0
+KEY_C2
+Text Label 6900 10100 0    60   ~ 0
+KEY_C3
+Text Label 6900 10200 0    60   ~ 0
+KEY_C4
+Text Label 6900 10300 0    60   ~ 0
+KEY_C5
+Text Label 6900 10400 0    60   ~ 0
+KEY_C6
+Text Label 6900 10500 0    60   ~ 0
+KEY_C7
+Text Label 6900 8950 0    60   ~ 0
+KEY_C8
+Text Label 6900 9050 0    60   ~ 0
+KEY_C9
+Text Label 6900 9150 0    60   ~ 0
+KEY_C10
+Text Label 6900 9250 0    60   ~ 0
+KEY_C11
+Text Label 6900 9350 0    60   ~ 0
+KEY_R0
+Text Label 6900 8100 0    60   ~ 0
+KEY_R1
+Text Label 6900 8700 0    60   ~ 0
+KEY_R2
+Text Label 6900 8800 0    60   ~ 0
+KEY_R3
+Text Label 6900 7850 0    60   ~ 0
+KEY_R4
+Text Label 6900 7950 0    60   ~ 0
+KEY_R5
+$Comp
+L CONN_01X20 P?
+U 1 1 57B32D3F
+P 10600 7600
+F 0 "P?" H 10600 8650 50  0000 C CNN
+F 1 "CONN_01X20" V 10700 7600 50  0000 C CNN
+F 2 "" H 10600 7600 50  0000 C CNN
+F 3 "" H 10600 7600 50  0000 C CNN
+	1    10600 7600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 57B34E90
+P 10350 8600
+F 0 "#PWR?" H 10350 8350 50  0001 C CNN
+F 1 "GND" H 10350 8450 50  0000 C CNN
+F 2 "" H 10350 8600 50  0000 C CNN
+F 3 "" H 10350 8600 50  0000 C CNN
+	1    10350 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10350 8600 10350 8550
+Wire Wire Line
+	10350 8550 10400 8550
+$Comp
+L +3V3 #PWR?
+U 1 1 57B35BB8
+P 10300 6550
+F 0 "#PWR?" H 10300 6400 50  0001 C CNN
+F 1 "+3V3" H 10300 6690 50  0000 C CNN
+F 2 "" H 10300 6550 50  0000 C CNN
+F 3 "" H 10300 6550 50  0000 C CNN
+	1    10300 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10300 6550 10300 6650
+Wire Wire Line
+	10300 6650 10400 6650
+Text Label 10400 6750 2    60   ~ 0
+KEY_C0
+Text Label 10400 6850 2    60   ~ 0
+KEY_C1
+Text Label 10400 6950 2    60   ~ 0
+KEY_C2
+Text Label 10400 7050 2    60   ~ 0
+KEY_C3
+Text Label 10400 7150 2    60   ~ 0
+KEY_C4
+Text Label 10400 7250 2    60   ~ 0
+KEY_C5
+Text Label 10400 7350 2    60   ~ 0
+KEY_C6
+Text Label 10400 7450 2    60   ~ 0
+KEY_C7
+Text Label 10400 7550 2    60   ~ 0
+KEY_C8
+Text Label 10400 7650 2    60   ~ 0
+KEY_C9
+Text Label 10400 7750 2    60   ~ 0
+KEY_C10
+Text Label 10400 7850 2    60   ~ 0
+KEY_C11
+Text Label 10400 7950 2    60   ~ 0
+KEY_R0
+Text Label 10400 8050 2    60   ~ 0
+KEY_R1
+Text Label 10400 8150 2    60   ~ 0
+KEY_R2
+Text Label 10400 8250 2    60   ~ 0
+KEY_R3
+Text Label 10400 8350 2    60   ~ 0
+KEY_R4
+Text Label 10400 8450 2    60   ~ 0
+KEY_R5
+Text Notes 9400 6250 0    60   ~ 0
+Attached to keyboard matrix from mini keyboard
 $EndSCHEMATC
