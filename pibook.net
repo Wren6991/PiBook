@@ -1,7 +1,7 @@
 (export (version D)
   (design
-    (source D:\Documents\KiCad\PiBook\pibook.sch)
-    (date "23/08/2016 18:53:50")
+    (source D:/Documents/KiCad/PiBook/pibook.sch)
+    (date "23/08/2016 23:31:25")
     (tool "Eeschema 4.0.3-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1172,14 +1172,14 @@
         (pin (num 5) (name GND) (type power_in))
         (pin (num 6) (name shield) (type passive)))))
   (libraries
-    (library (logical device)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
-    (library (logical conn)
-      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
     (library (logical atmel)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\atmel.lib"))
     (library (logical ComputeModule)
-      (uri D:\Documents\KiCad\PiBook\lib\ComputeModule.lib)))
+      (uri D:\Documents\KiCad\PiBook\lib\ComputeModule.lib))
+    (library (logical device)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
+    (library (logical conn)
+      (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib")))
   (nets
     (net (code 1) (name /USER_IO_5)
       (node (ref P6) (pin 11))
