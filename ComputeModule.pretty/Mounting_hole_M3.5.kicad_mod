@@ -1,9 +1,10 @@
-(module Mounting_hole_M3.5 (layer F.Cu) (tedit 57B0AD26)
-  (fp_text reference REF** (at 0 3.75) (layer F.SilkS) hide
+(module Mounting_hole_M3.5 (layer F.Cu) (tedit 57C18E07)
+  (fp_text reference MH3 (at 0 3.75) (layer F.SilkS) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value Mounting_hole_M3.5 (at 0.25 -3.75) (layer F.Fab) hide
+  (fp_text value Mounting_Hole (at 0.25 -3.75) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad "" np_thru_hole circle (at 0 0) (size 5 5) (drill 3.9) (layers *.Cu *.Mask))
+  (pad "" thru_hole circle (at 0 0) (size 3.9 3.9) (drill 3.9) (layers *.Cu *.Mask)
+    (solder_mask_margin 1) (clearance 1))
 )
