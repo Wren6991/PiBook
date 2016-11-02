@@ -1704,7 +1704,7 @@ F 1 "Si2323DS" V 13750 3300 50  0000 R CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 13700 3450 50  0001 C CNN
 F 3 "" H 13500 3350 50  0000 C CNN
 	1    13500 3350
-	0    -1   -1   0   
+	0    1    -1   0   
 $EndComp
 $Comp
 L +BATT #PWR052
